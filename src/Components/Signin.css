@@ -1,0 +1,206 @@
+.Sign_in_conainer {
+    display: flex;
+    background-color: #F7F5F9;
+}
+
+/*left*/
+.Sign_in_left {
+    width: 60%;
+}
+
+.Sign_in_left_head h1 {
+    font-style: Poppins;
+    font-style: italic;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2%;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 580px;
+}
+
+.Sign_in_left_para p {
+    font-style: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    width: 706px;
+    height: 120px;
+    margin-top: 36px;
+    margin-left: 100px;
+}
+
+.Sign_in_left_head span {
+    color: #0096C8;
+    ;
+}
+
+.Sign_in_left_img img {
+    width: 600px;
+    height: 216px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
+
+
+
+/*right*/
+
+.Sign_in_right {
+    display: flex;
+    width: 40%;
+    margin-top: 103px;
+    gap: 32px;
+
+}
+.Sign_in_right_sign_in h4:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Sign_in_right_sign_in h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #8064A2;
+}
+
+.Sign_in_right_Sign_in h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #939CA3;
+    width: 67px;
+    height: 30px;
+    margin-left: 12px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Sign_in_right_sign_in_continue button:hover{
+    background-color: #8064A2;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Sign_in_right_sign_in_con button{
+    background-color: #8064A2;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+}
+.Sign_in_right_sign_in_continue button {
+    width: 400px;
+    height: 40px;
+    padding: 12px 128px 12px 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+    border: 1px solid #8064A2;
+    background: #F7F5F9;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+.Sign_in_right_sign_in_continue button img{
+    margin-right: 10px;
+}
+
+.Sign_in_right_sign_in_alter input {
+    width: 400px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EBEDF0;
+    padding: 10px;
+    place-content: center;
+    color:#dedfe1;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.Sign_in_right_sign_in_alter {
+    width: Hug (410px)px;
+    height: Hug (96px)px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.header__center {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+
+.Sign_in__center {
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 16px;
+    width: 400px;
+}
+
+.Sign_in__center::before,
+.Sign_in__center::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #CED4DA;
+}
+
+/* forget */
+.Sign_in_right_sign_in_forget{
+    display: flex;
+}
+.Sign_in_right_sign_in_forget_for {
+    margin-left: 150px;
+    
+}
+.Sign_in_right_sign_in_forget_for p:hover{
+   cursor: pointer;
+   color: #0a0a0a;
+   font-weight: bolder;
+}
+.Sign_in_right_sign_in_forget_rem:hover{
+cursor: pointer;
+    color: #000000;
+    font-weight: bolder;
+}
+
+
+/*media*/
+@media screen and (max-width:935px){
+    .Sign_in_right{
+    margin-left: 28px;
+   
+    }
+    .nav_container{
+        width: 1350px;
+    }
+    .Sign_in_conainer{
+        width: 1350px;
+    }
+}

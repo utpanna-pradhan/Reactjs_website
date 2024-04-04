@@ -1,0 +1,14 @@
+.pr1{
+    color: black;
+    font-weight: 600;
+}
+.pr1:hover{
+    cursor: pointer;
+    font-weight: bold
+    ;
+}
+.Home_right_Home_privacy p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 60px;
+} 

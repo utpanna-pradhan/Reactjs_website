@@ -1,0 +1,168 @@
+.navbar {
+ width:100%
+}
+
+
+/*nav logo*/
+
+.nav_bar_logo{
+    width: 293px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.nav_bar_img{
+    display: flex;
+}
+/*nav search*/
+.nav_bar_search{
+    display:flex;
+    
+   
+}
+.nav_bar_search img{
+    margin-left: -8px;
+    margin-top: 10px;
+}
+.nav_bar_search img:hover{
+    cursor: pointer;
+}
+.nav_bar_search input{
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+/*drop down */
+.dropdown button{
+    background-color: #f7f7f7; color:black; border:1px solid #f7f7f7; margin-top:5px;
+}
+.nav_bar_icon_2 button {
+    background-color: #f7f7f7; color:black; border:1px solid #f7f7f7; margin-top:5px;
+}
+.nav_bar_icon_1{
+    margin-left: 70px;
+}
+
+.material-icons{
+    color: #8064A2;
+}
+.nav_bar_signin{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.nav_bar_signin button{
+    border: 1.5px solid #8064A2;
+    border-radius: 5PX;
+    width: 100PX;
+    color: #8064A2;
+    font-weight: 500;
+    background-color:#EBEDF0;
+}
+.nav_bar_icon_2{
+    margin-left: 30px;
+}
+.nav_bar_img{
+    margin-top: 10px;
+    margin-left: 20px;
+   
+}
+.material-icons{
+    margin-left: 25px;
+}
+.material-icons:hover{
+    cursor: pointer;
+}
+
+/*media query*/
+@media only screen and (min-width: 412px) and (max-width: 915px) {
+    .nav_bar_logo img{
+        width: 80px;
+            height: 25px;
+            margin-left: -25px;
+            margin-top: -10px;
+        }
+    .nav_bar_logo {
+        width: 100px;
+            height: 40px;
+            margin-left: -1px;
+            margin-top: 2px;
+       
+        }
+    .nav_bar_search input {
+    border-radius: 8px;
+    margin-top: -6px;
+    margin-left: -25px;
+    width: 90px;
+    height: 33px;
+    }
+  .nav_bar_search img {
+      margin-left: -8px;
+      margin-top: -6px;
+      height: 35px;
+  }
+        
+    .nav_bar_icon_1 {
+        margin-left: 2px;
+                }
+
+
+
+
+
+.dropdown button {
+margin-left: -62px;
+    margin-top: -16px;
+    width: 50px;
+    height: 10px;
+    /* height: 0px; */
+    font-size: 10px;
+    padding-left: 0px;
+
+    }
+
+.btn img{
+    width: 14px;
+    height: 14px;
+}
+
+
+.nav_bar_icon_1 {
+    margin-left: 70px;
+}
+
+
+
+.nav_bar_signin {
+    margin-top: 25px;
+        margin-left: -120px;
+    
+}
+
+.nav_bar_signin button {
+   
+    width: 65PX;
+    color: #8064A2;
+font-size: 12px;
+}
+
+.nav_bar_icon_2 {
+    margin-left: 65px;
+      
+    
+}
+
+.nav_bar_img {
+    margin-top: -1px;
+        margin-left: -30px;
+    
+
+}
+
+.material-icons {
+    margin-left: 25px;
+}
+
+
+
+    }
