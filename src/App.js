@@ -16,10 +16,10 @@ function App() {
   return (
     <>
     <Navbar />
- 
+  
    <Router>
         <Routes>
-          <Route exact path='/Reactjs_website' element={<Home />}/>
+          <Route exact path='/Reactjs_website/' element={<Home />}/>
           
           <Route exact path='/signin' element={<Home />}/>
 
